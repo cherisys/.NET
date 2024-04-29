@@ -95,3 +95,30 @@ app.MapGet("/big", ([FromKeyedServices("big")] ICache bigCache) => bigCache.Get(
 app.MapGet("/small", ([FromKeyedServices("small")] ICache smallCache) => smallCache.Get("date"));
 ```
 # Constructor Injection Behavior
+1. Services can be resolved by using: **IServiceProvider**, **ActivatorUtilities**.
+2. **ActivatorUtilities** creates objects that aren't registered in the container. 
+3. Constructors can accept arguments that aren't provided by dependency injection, but the arguments must assign default values.
+4. When services are resolved, constructor injection requires a **public constructor**.
+5. When services are resolved by **ActivatorUtilities**, constructor injection requires that only one applicable constructor exists.
+6. Constructor overloads supported, but only one overload can exist whose arguments can all be fulfilled by DI.
+
+# Entity Framework Contexts
+1. By default, EF Context added to service container with **Scoped Lifetime**, because database ops are normally scoped to client request.
+2. To use different lifetime, specify lifetime using an AddDbContext overload.
+3. Services of a given lifetime shouldn't use a database context with a lifetime that's shorter than the services lifetime.
+
+# Resolve a Service at App Startup
+```c#
+var app = builder.Build();
+
+using (var serviceScope = app.Services.CreateScope())
+{
+    var services = serviceScope.ServiceProvider;
+    var myDependency = services.GetRequiredService<IMyDependency>();
+    myDependency.WriteMessage("Call services from main");
+}
+```
+
+# Scope Validation
+
+
