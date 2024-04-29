@@ -73,7 +73,7 @@ builder.Services.AddMyDependencyGroup();
 | Method                                               | Automatic Object Disposal | Multiple Implementations | Pass Arguments |
 |------------------------------------------------------|---------------------------|--------------------------|----------------|
 | Add{Lifetime}<{Service},{Implementation}>()          | Yes                       | Yes                      | No             |
-| Add{Lifetime}<{Service}(sp => new {Implementation})> | Yes                       | Yes                      | Yes            |
+| Add{Lifetime}<{Service}>(sp => new {Implementation}) | Yes                       | Yes                      | Yes            |
 | Add{Lifetime}<{Implementation}>()                    | Yes                       | No                       | No             |
 | AddSingleton<{Service}>(new {Implementation})        | No                        | Yes                      | Yes            |
 | AddSingleton(new {Implementation})                   | No                        | No                       | Yes            |
