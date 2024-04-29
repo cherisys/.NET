@@ -59,10 +59,10 @@ builder.Services.AddMyDependencyGroup();
 > - Transient services are disposed at the end of the request.
 
 
-> - By default, in Dev Env, resolving a service from another service with a longer lifetime throws an exception.
-> - Singleton > Scoped > Transient
-> - Resolve a singleton service from a scoped or transient service.
-> - Resolve a scoped service from another scoped or transient service.
+- By default, in Dev Env, resolving a service from another service with a longer lifetime throws an exception.
+- Singleton > Scoped > Transient
+- Resolve a singleton service from a scoped or transient service.
+- Resolve a scoped service from another scoped or transient service.
 
 # To use Scoped Service in Middleware, use One of these approaches
 1. Inject service into the Middleware's **Invoke** or **InvokeAsync** method.
