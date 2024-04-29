@@ -70,13 +70,13 @@ builder.Services.AddMyDependencyGroup();
 2. Use **Factory-based Middleware**. Middleware registered using this method is activated per-client request (connection), which allows scoped services to be injected into the middleware's constructor.
 
 # Service Registration Methods
-| Method | Automatic Object Disposal | Multiple Implementations | Pass Arguments |
-|---|---|---|---|---|
-| Add{Lifetime}<{Service},{Implementation}>() | Yes | Yes | No |
-| Add{Lifetime}<{Service}(sp => new {Implementation})> | Yes | Yes | Yes |
-| Add{Lifetime}<{Implementation}>() | Yes | No | No |
-| AddSingleton<{Service}>(new {Implementation}) | No | Yes | Yes |
-| AddSingleton(new {Implementation}) | No | No | Yes |
+| Method                                               | Automatic Object Disposal | Multiple Implementations | Pass Arguments |
+|------------------------------------------------------|---------------------------|--------------------------|----------------|
+| Add{Lifetime}<{Service},{Implementation}>()          | Yes                       | Yes                      | No             |
+| Add{Lifetime}<{Service}(sp => new {Implementation})> | Yes                       | Yes                      | Yes            |
+| Add{Lifetime}<{Implementation}>()                    | Yes                       | No                       | No             |
+| AddSingleton<{Service}>(new {Implementation})        | No                        | Yes                      | Yes            |
+| AddSingleton(new {Implementation})                   | No                        | No                       | Yes            |
 
 1. Above service registration methods can be used to register multiple instances of same service type.
 2. Services appear in the order they were registered when resolved via **IEnumerable<{Service}>**.
