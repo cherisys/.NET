@@ -180,7 +180,7 @@ builder.Services.AddSingleton(new Service2());
 10. Avoid static access to HttpContext (e.g. IHttpContextAccessor.HttpContext).
 
 # Anti-Patterns
-1. Disposable transient services captured by container can cause **Memory Leaks**.
+## Disposable transient services captured by container can cause **Memory Leaks**.
 ```c#
 static void TransientDisposablesWithoutDispose()
 {
@@ -198,7 +198,7 @@ static void TransientDisposablesWithoutDispose()
 ```
 In preceding anti-pattern, 1000 **ExampleDisposable** objects are instantiated and rooted. They will not be disposed of until **ServiceProvider (Container) Instance** is disposed.
 
-2. Async DI Factories can cause **Deadlocks**.
+## Async DI Factories can cause **Deadlocks**.
 - Term **DI Factories** refers to the overload methods that exist when calling Add{Lifetime}.
 - There are overloads accepting a **Func<IServiceProvider, T>** where T is service being registered, and parameter is named **implementationFactory**.
 - The **implementationFactory** can be provided as lambda expression, local function, or method.
@@ -225,7 +225,7 @@ static async Task<Bar> GetBarAsync(IServiceProvider serviceProvider){
 ```
 When you're running this anti-pattern and deadlock occurs, you can view two threads waiting from Visual Studio's Parallel Stack window.
 
-3. Captive Dependency
+## Captive Dependency
 - Refers to the misconfiguration of Service Lifetimes, where a longer-lived service hold a shorter-lived service captive.
 ```c#
 static void CaptiveDependency()
@@ -249,7 +249,7 @@ public class Foo(Bar bar)
 - **Foo** would only be instantiated once, and it would hold on to **Bar** for it's lifetime, which is longer than intended scoped lifetime of **Bar** - this is a misconfiguration.
 - You should consider validating scopes by passing **validateScopes: true**. When you validate scopes, you'd get an **InvalidOperationException** with a message similar to **"Cannot consume scoped service 'Bar' from singleton 'Foo'."**
 
-4. Scoped Service as Singleton
+## Scoped Service as Singleton
 - When you're creting scoped services, without creating scope - service becomes singleton.
 ```c#
 static void ScopedServiceBecomeSingleton()
