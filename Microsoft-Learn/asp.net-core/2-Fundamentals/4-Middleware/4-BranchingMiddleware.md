@@ -1,5 +1,5 @@
 # Branching the Middleware Pipeline
-1. **Map** extensions are used as a convention for branching.
+**Map** extensions are used as a convention for branching.
 
 ## Map 
 Map branches the request pipeline based on matches of the given request path.
