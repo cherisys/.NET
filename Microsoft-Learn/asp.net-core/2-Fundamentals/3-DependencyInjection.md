@@ -268,5 +268,3 @@ static void ScopedServiceBecomeSingleton()
     Bar avoid = serviceProvider.GetRequiredService<Bar>();
 }
 ```
-
-
