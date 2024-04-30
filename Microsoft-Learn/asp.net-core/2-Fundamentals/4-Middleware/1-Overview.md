@@ -17,3 +17,15 @@ app.Use(async (context, next) =>
     // Do logging or other work that doesn't write to the Response.
 });
 ```
+
+# Run Delegates
+1. Run delegates don't receive a **next** parameter.
+```c#
+app.Run(async context =>
+{
+    await context.Response.WriteAsync("Hello from 2nd delegate.");
+});
+
+app.Run();
+```
+2. First Run delegate is always a terminal, and terminates pipeline.
