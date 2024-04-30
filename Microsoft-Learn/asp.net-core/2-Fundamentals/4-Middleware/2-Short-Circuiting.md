@@ -9,4 +9,4 @@
 > Writing to response body after calling next:
 > - May cause a protocol violation, such as writing more than the started Content-Length.
 > - May corrupt the body format, such as writing an HTML footer to a CSS file.
-> **HasStarted** is a useful hint to indicate if headers have been sent or the body has been written to.
+>>**HasStarted** is a useful hint to indicate if headers have been sent or the body has been written to.
