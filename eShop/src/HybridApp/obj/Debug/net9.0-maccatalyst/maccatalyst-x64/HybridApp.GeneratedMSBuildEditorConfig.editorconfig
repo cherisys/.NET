@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net9.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eShop.HybridApp
+build_property.RootNamespace = eShop.HybridApp
+build_property.ProjectDir = C:\TestProjects\.NET\eShop\src\HybridApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\TestProjects\.NET\eShop\src\HybridApp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/Layout/FooterBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyQmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-v2ttz3gahx
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/Layout/HeaderBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcSGVhZGVyQmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-otwfddkbw7
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3mn2r380fc
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/Pages/Catalog/Catalog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRhbG9nXENhdGFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ewwh9p9hqu
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/Pages/Catalog/CatalogSearch.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRhbG9nXENhdGFsb2dTZWFyY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ft6m1o84tb
+
+[C:/TestProjects/.NET/eShop/src/HybridApp/Components/Pages/Item/ItemPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJdGVtXEl0ZW1QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-75vymv5rbw

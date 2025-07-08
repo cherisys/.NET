@@ -1,0 +1,10 @@
+images\fake_product_01;images\fake_product_01
+images\fake_product_02;images\fake_product_02
+images\fake_product_03;images\fake_product_03
+images\fake_product_04;images\fake_product_04
+images\fake_product_05;images\fake_product_05
+images\fake_product_06;images\fake_product_06
+images\header;images\header
+images\header_home;images\header_home
+images\noimage;images\noimage
+raw\aboutassets;raw\AboutAssets

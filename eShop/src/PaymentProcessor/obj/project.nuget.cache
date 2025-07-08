@@ -1,0 +1,346 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fgpyxw/R578=",
+  "success": false,
+  "projectFilePath": "C:\\TestProjects\\.NET\\eShop\\src\\PaymentProcessor\\PaymentProcessor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\503310\\.nuget\\packages\\asp.versioning.abstractions\\6.0.0\\asp.versioning.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\asp.versioning.http\\6.0.0\\asp.versioning.http.6.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\asp.versioning.mvc\\6.0.0\\asp.versioning.mvc.6.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\6.0.0\\asp.versioning.mvc.apiexplorer.6.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\aspire.rabbitmq.client\\8.0.0\\aspire.rabbitmq.client.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\aspnetcore.healthchecks.rabbitmq\\8.0.1\\aspnetcore.healthchecks.rabbitmq.8.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\grpc.core.api\\2.32.0\\grpc.core.api.2.32.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\grpc.net.client\\2.32.0\\grpc.net.client.2.32.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\grpc.net.common\\2.32.0\\grpc.net.common.2.32.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.authentication\\1.0.0\\microsoft.aspnetcore.authentication.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\1.0.0\\microsoft.aspnetcore.authentication.jwtbearer.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\1.0.0\\microsoft.aspnetcore.cryptography.internal.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\1.0.0\\microsoft.aspnetcore.dataprotection.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\1.0.0\\microsoft.aspnetcore.dataprotection.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\1.0.0\\microsoft.aspnetcore.hosting.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\1.0.0\\microsoft.aspnetcore.hosting.server.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.http\\1.0.0\\microsoft.aspnetcore.http.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\1.0.0\\microsoft.aspnetcore.http.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\1.0.0\\microsoft.aspnetcore.http.extensions.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.http.features\\1.0.0\\microsoft.aspnetcore.http.features.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\1.0.0\\microsoft.aspnetcore.webutilities.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.0\\microsoft.bcl.timeprovider.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.ambientmetadata.application\\8.0.0\\microsoft.extensions.ambientmetadata.application.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\8.0.0\\microsoft.extensions.compliance.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.1\\microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\1.0.0\\microsoft.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.dependencyinjection.autoactivation\\8.0.0\\microsoft.extensions.dependencyinjection.autoactivation.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\3.1.32\\microsoft.extensions.diagnosticadapter.3.1.32.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.0\\microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.diagnostics.exceptionsummarization\\8.0.0\\microsoft.extensions.diagnostics.exceptionsummarization.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.features\\8.0.4\\microsoft.extensions.features.8.0.4.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.http\\8.0.0\\microsoft.extensions.http.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.http.diagnostics\\8.0.0\\microsoft.extensions.http.diagnostics.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.http.resilience\\8.0.0\\microsoft.extensions.http.resilience.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.1\\microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.logging.configuration\\8.0.0\\microsoft.extensions.logging.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.0\\microsoft.extensions.objectpool.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\1.0.0\\microsoft.extensions.options.configurationextensions.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.resilience\\8.0.0\\microsoft.extensions.resilience.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.servicediscovery\\8.0.0\\microsoft.extensions.servicediscovery.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.servicediscovery.abstractions\\8.0.0\\microsoft.extensions.servicediscovery.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.telemetry\\8.0.0\\microsoft.extensions.telemetry.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.telemetry.abstractions\\8.0.0\\microsoft.extensions.telemetry.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.extensions.webencoders\\1.0.0\\microsoft.extensions.webencoders.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.identitymodel.logging\\1.0.0\\microsoft.identitymodel.logging.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.identitymodel.protocols\\2.0.0\\microsoft.identitymodel.protocols.2.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\2.0.0\\microsoft.identitymodel.protocols.openidconnect.2.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.0.0\\microsoft.identitymodel.tokens.5.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.2\\microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.net.http.headers\\1.0.0\\microsoft.net.http.headers.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\microsoft.win32.registry\\4.0.0\\microsoft.win32.registry.4.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry\\1.4.0\\opentelemetry.1.4.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry.api\\1.6.0\\opentelemetry.api.1.6.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.6.0\\opentelemetry.api.providerbuilderextensions.1.6.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.0.1\\opentelemetry.exporter.opentelemetryprotocol.1.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.4.0\\opentelemetry.extensions.hosting.1.4.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.6.0\\opentelemetry.instrumentation.aspnetcore.1.6.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry.instrumentation.http\\1.6.0\\opentelemetry.instrumentation.http.1.6.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\opentelemetry.instrumentation.runtime\\1.0.0\\opentelemetry.instrumentation.runtime.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\polly.core\\8.0.0\\polly.core.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\polly.extensions\\8.0.0\\polly.extensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\polly.ratelimiting\\8.0.0\\polly.ratelimiting.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.native.system.io.compression\\4.3.0\\runtime.native.system.io.compression.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0\\runtime.native.system.net.http.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\scalar.aspnetcore\\1.0.0\\scalar.aspnetcore.1.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.collections.nongeneric\\4.0.1\\system.collections.nongeneric.4.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.collections.specialized\\4.0.1\\system.collections.specialized.4.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.componentmodel\\4.0.1\\system.componentmodel.4.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.diagnostics.contracts\\4.0.1\\system.diagnostics.contracts.4.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.0.0\\system.identitymodel.tokens.jwt.5.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.io.compression\\4.3.0\\system.io.compression.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.net.websockets\\4.0.0\\system.net.websockets.4.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.runtime.serialization.primitives\\4.1.1\\system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.claims\\4.0.1\\system.security.claims.4.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.cryptography.cng\\4.3.0\\system.security.cryptography.cng.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.principal\\4.0.1\\system.security.principal.4.0.1.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.security.principal.windows\\4.0.0\\system.security.principal.windows.4.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.threading.ratelimiting\\7.0.0\\system.threading.ratelimiting.7.0.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
+    "C:\\Users\\503310\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency Asp.Versioning.Mvc.ApiExplorer. Asp.Versioning.Mvc.ApiExplorer 6.0.0 was resolved instead.",
+      "libraryId": "Asp.Versioning.Mvc.ApiExplorer",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EventBusRabbitMQ does not provide an inclusive lower bound for dependency Aspire.RabbitMQ.Client. Aspire.RabbitMQ.Client 8.0.0 was resolved instead.",
+      "libraryId": "Aspire.RabbitMQ.Client",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency Microsoft.AspNetCore.Authentication.JwtBearer. Microsoft.AspNetCore.Authentication.JwtBearer 1.0.0 was resolved instead.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency Microsoft.AspNetCore.OpenApi. Microsoft.AspNetCore.OpenApi 7.0.0 was resolved instead.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Microsoft.Extensions.Options.ConfigurationExtensions 1.0.0 does not provide an inclusive lower bound for dependency Microsoft.Extensions.DependencyInjection.Abstractions. Microsoft.Extensions.DependencyInjection.Abstractions 1.0.0 was resolved instead.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency Microsoft.Extensions.Http.Resilience. Microsoft.Extensions.Http.Resilience 8.0.0 was resolved instead.",
+      "libraryId": "Microsoft.Extensions.Http.Resilience",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EventBusRabbitMQ does not provide an inclusive lower bound for dependency Microsoft.Extensions.Options.ConfigurationExtensions. Microsoft.Extensions.Options.ConfigurationExtensions 1.0.0 was resolved instead.",
+      "libraryId": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency Microsoft.Extensions.ServiceDiscovery. Microsoft.Extensions.ServiceDiscovery 8.0.0 was resolved instead.",
+      "libraryId": "Microsoft.Extensions.ServiceDiscovery",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency OpenTelemetry.Exporter.OpenTelemetryProtocol. OpenTelemetry.Exporter.OpenTelemetryProtocol 1.0.1 was resolved instead.",
+      "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency OpenTelemetry.Extensions.Hosting. OpenTelemetry.Extensions.Hosting 1.4.0 was resolved instead.",
+      "libraryId": "OpenTelemetry.Extensions.Hosting",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency OpenTelemetry.Instrumentation.AspNetCore. OpenTelemetry.Instrumentation.AspNetCore 1.6.0 was resolved instead.",
+      "libraryId": "OpenTelemetry.Instrumentation.AspNetCore",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency OpenTelemetry.Instrumentation.Http. OpenTelemetry.Instrumentation.Http 1.6.0 was resolved instead.",
+      "libraryId": "OpenTelemetry.Instrumentation.Http",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency OpenTelemetry.Instrumentation.Runtime. OpenTelemetry.Instrumentation.Runtime 1.0.0 was resolved instead.",
+      "libraryId": "OpenTelemetry.Instrumentation.Runtime",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EventBusRabbitMQ does not provide an inclusive lower bound for dependency Polly.Core. Polly.Core 8.0.0 was resolved instead.",
+      "libraryId": "Polly.Core",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "eShop.ServiceDefaults does not provide an inclusive lower bound for dependency Scalar.AspNetCore. Scalar.AspNetCore 1.0.0 was resolved instead.",
+      "libraryId": "Scalar.AspNetCore",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1103",
+      "level": "Error",
+      "message": "Unable to find a stable package OpenTelemetry.Instrumentation.GrpcNetClient with version \r\n  - Found 39 version(s) in nuget.org [ Nearest version: 1.12.0-beta.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "OpenTelemetry.Instrumentation.GrpcNetClient",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1107",
+      "level": "Error",
+      "message": "Version conflict detected for Microsoft.Extensions.Options. Install/reference Microsoft.Extensions.Options 1.0.0 directly to project PaymentProcessor to resolve this issue. \r\n PaymentProcessor -> EventBusRabbitMQ -> EventBus -> Microsoft.Extensions.Options \r\n PaymentProcessor -> eShop.ServiceDefaults -> OpenTelemetry.Instrumentation.Http 1.6.0 -> Microsoft.Extensions.Options (>= 8.0.0).",
+      "libraryId": "Microsoft.Extensions.Options",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
